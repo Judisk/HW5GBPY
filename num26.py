@@ -16,6 +16,6 @@ def treug(N,i,result):
         return result
     return treug(N, i, result)
 
-print(f" Факториал числа {N} = {Fact(N,i,result)}")
-result=i=1
-print(f" Треуголное число {N} = {treug(N,i,result)}")
+print(f" Факториал числа {N} = {Fact(N,i,result)} \n "
+      f"  Треуголное число {N} = {treug(N,i,result)}")
+
